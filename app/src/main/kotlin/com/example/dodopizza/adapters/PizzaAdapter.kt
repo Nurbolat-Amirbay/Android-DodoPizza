@@ -28,9 +28,7 @@ class PizzaAdapter(
         return PizzaViewHolder(binding)
     }
 
-    override fun onBindViewHolder(holder: PizzaViewHolder, position: Int) {
-        holder.bind(pizzas[position])
-    }
+
 
     override fun getItemCount(): Int {
         return pizzas.size
